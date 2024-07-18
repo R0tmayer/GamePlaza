@@ -34,7 +34,7 @@
 		<aside class="col-span-2 space-y-5">
 			<ProductScreenshot></ProductScreenshot>
 			<div class="flex flex-col space-y-5">
-				<div class="inline-flex justify-around space-x-5">
+				<div class="inline-flex justify-around items-center space-x-5">
 					<p class="text-3xl font-medium">$199</p>
 					<Button size="lg" class="w-full">ADD TO CART</Button>
 				</div>
