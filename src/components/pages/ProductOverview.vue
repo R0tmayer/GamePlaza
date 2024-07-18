@@ -14,7 +14,7 @@
 			</article>
 			<Card class="mt-5">
 				<CardHeader>
-					<CardTitle class="text-muted-foreground">Description</CardTitle>
+					<CardTitle class="text-muted-foreground text-xl">Description</CardTitle>
 				</CardHeader>
 				<CardContent
 					>Genshin Impact [a] is an action role-playing game developed and published by
@@ -40,55 +40,61 @@
 				</div>
 				<Card>
 					<CardContent>
-						<div class="space-y-4 mt-4">
+						<div class="space-y-3 mt-3">
 							<div class="flex items-center justify-between">
-								<p class="text-xl text-muted-foreground">Genre</p>
-								<p class="text-xl">Action</p>
+								<p class="l text-muted-foreground">Genre</p>
+								<p class="">Action</p>
 							</div>
 							<div class="flex items-center justify-between">
-								<p class="text-xl text-muted-foreground">Release</p>
-								<p class="text-xl">2024</p>
+								<p class="text-muted-foreground">Release</p>
+								<p class="">2024</p>
 							</div>
 							<div class="flex items-center justify-between">
-								<p class="text-xl text-muted-foreground">Platform</p>
-								<p class="text-xl">Windows, PS5</p>
+								<p class="text-muted-foreground">Platform</p>
+								<p class="">Windows, PS5</p>
 							</div>
 							<div class="flex items-center justify-between">
-								<p class="text-xl text-muted-foreground">Developer</p>
-								<p class="text-xl">Respawn</p>
+								<p class="text-muted-foreground">Developer</p>
+								<p class="">Respawn</p>
 							</div>
 							<div class="flex items-center justify-between">
-								<p class="text-xl text-muted-foreground">Action</p>
-								<p class="text-xl">GameBuiz</p>
+								<p class="text-muted-foreground">Action</p>
+								<p class="">GameBuiz</p>
 							</div>
 						</div>
 					</CardContent>
 				</Card>
 				<Card>
 					<CardHeader>
-						<CardTitle class="text-muted-foreground">System Requirements</CardTitle>
+						<CardTitle class="text-muted-foreground text-xl"
+							>System Requirements</CardTitle
+						>
 					</CardHeader>
 					<CardContent>
-						<div class="space-y-4 mt-4">
+						<div class="space-y-3">
 							<div class="flex items-center justify-between">
-								<p class="text-xl text-muted-foreground">Genre</p>
-								<p class="text-xl">Action</p>
+								<p class="text-muted-foreground">OS</p>
+								<p class="">Windows 10 (20H1 64 bits)</p>
 							</div>
 							<div class="flex items-center justify-between">
-								<p class="text-xl text-muted-foreground">Release</p>
-								<p class="text-xl">2024</p>
+								<p class="text-muted-foreground">CPU</p>
+								<p class="">Intel Core i5-4690k (3.5 GHz)</p>
 							</div>
 							<div class="flex items-center justify-between">
-								<p class="text-xl text-muted-foreground">Platform</p>
-								<p class="text-xl">Windows, PS5</p>
+								<p class="text-muted-foreground">Memory</p>
+								<p class="">16 GB</p>
 							</div>
 							<div class="flex items-center justify-between">
-								<p class="text-xl text-muted-foreground">Developer</p>
-								<p class="text-xl">Respawn</p>
+								<p class="text-muted-foreground">Graphics Card</p>
+								<p class="">NVIDIA GeForce GT 1030</p>
 							</div>
 							<div class="flex items-center justify-between">
-								<p class="text-xl text-muted-foreground">Action</p>
-								<p class="text-xl">GameBuiz</p>
+								<p class="text-muted-foreground">DirectX version</p>
+								<p class="">12</p>
+							</div>
+							<div class="flex items-center justify-between">
+								<p class="text-muted-foreground">Storage</p>
+								<p class="">55 GB</p>
 							</div>
 						</div>
 					</CardContent>
@@ -99,14 +105,7 @@
 </template>
 
 <script setup lang="ts">
-import {
-	Card,
-	CardContent,
-	CardDescription,
-	CardFooter,
-	CardHeader,
-	CardTitle,
-} from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import ProductScreenshot from '../custom/ProductScreenshot.vue';
 import Button from '../ui/button/Button.vue';
 </script>
