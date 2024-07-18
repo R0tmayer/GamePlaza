@@ -1,6 +1,6 @@
 <template>
 	<header class="border-b sticky top-0 bg-background">
-		<div class="container h-16 flex items-center justify-between">
+		<div class="mx-10 h-16 flex items-center justify-between">
 			<div class="flex items-baseline space-x-6">
 				<div class="text-lg font-semibold">GamePlaza</div>
 				<nav class="flex space-x-6">
