@@ -1,9 +1,9 @@
 <template>
 	<div class="grid grid-cols-6 gap-10">
-		<ProductCard v-for="index in 10"></ProductCard>
+		<ProductListCard v-for="index in 10"></ProductListCard>
 	</div>
 </template>
 
 <script setup lang="ts">
-import ProductCard from '../custom/ProductCard.vue';
+import ProductListCard from '../custom/ProductListCard.vue';
 </script>
