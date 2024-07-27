@@ -237,23 +237,25 @@
 </template>
 
 <script setup lang="ts">
+import Button from '@shadcn/button/Button.vue';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@shadcn/card';
+import {
+	DropdownMenu,
+	DropdownMenuContent,
+	DropdownMenuItem,
+	DropdownMenuSeparator,
+	DropdownMenuTrigger,
+} from '@shadcn/dropdown-menu';
+import Separator from '@shadcn/separator/Separator.vue';
+
+import {
+	Table,
+	TableBody,
+	TableCell,
+	TableHead,
+	TableHeader,
+	TableRow,
+} from '@shadcn/table';
+
 import { House, MoreVertical, Package, ReceiptText, Users } from 'lucide-vue-next';
-import Button from '../ui/button/Button.vue';
-import Card from '../ui/card/Card.vue';
-import CardContent from '../ui/card/CardContent.vue';
-import CardDescription from '../ui/card/CardDescription.vue';
-import CardHeader from '../ui/card/CardHeader.vue';
-import CardTitle from '../ui/card/CardTitle.vue';
-import DropdownMenu from '../ui/dropdown-menu/DropdownMenu.vue';
-import DropdownMenuContent from '../ui/dropdown-menu/DropdownMenuContent.vue';
-import DropdownMenuItem from '../ui/dropdown-menu/DropdownMenuItem.vue';
-import DropdownMenuSeparator from '../ui/dropdown-menu/DropdownMenuSeparator.vue';
-import DropdownMenuTrigger from '../ui/dropdown-menu/DropdownMenuTrigger.vue';
-import Separator from '../ui/separator/Separator.vue';
-import Table from '../ui/table/Table.vue';
-import TableBody from '../ui/table/TableBody.vue';
-import TableCell from '../ui/table/TableCell.vue';
-import TableHead from '../ui/table/TableHead.vue';
-import TableHeader from '../ui/table/TableHeader.vue';
-import TableRow from '../ui/table/TableRow.vue';
 </script>

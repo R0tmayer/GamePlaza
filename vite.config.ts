@@ -14,6 +14,9 @@ export default defineConfig({
 	plugins: [vue()],
 	resolve: {
 		alias: {
+			'@pages': path.resolve(__dirname, './src/components/pages'),
+			'@custom': path.resolve(__dirname, './src/components/custom'),
+			'@shadcn': path.resolve(__dirname, './src/components/ui'),
 			'@': path.resolve(__dirname, './src'),
 		},
 	},

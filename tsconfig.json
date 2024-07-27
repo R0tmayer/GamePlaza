@@ -2,6 +2,10 @@
 	"compilerOptions": {
 		"baseUrl": ".",
 		"paths": {
+			"@pages/*": ["./src/components/pages/*"],
+			"@custom/*": ["./src/components/custom/*"],
+			"@shadcn/*": ["./src/components/ui/*"],
+			"@lib/*": ["./src/lib/*"],
 			"@/*": ["./src/*"]
 		}
 	},
