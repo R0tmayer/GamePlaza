@@ -2,17 +2,29 @@
 	<div class="flex min-h-screen w-full bg-muted/40 border rounded-lg overflow-hidden">
 		<aside class="px-4 border-r bg-background">
 			<nav class="flex flex-col max-w-fit items-start py-6 gap-3 text-lg">
-				<a class="flex items-center justify-center rounded-lg h-9 gap-2 px-2">
-					<House></House>
+				<a
+					href="index"
+					class="flex items-center justify-center rounded-lg h-9 gap-2 px-2"
+				>
+					<House class="stroke-muted-foreground"></House>
 				</a>
-				<a class="flex items-center justify-center rounded-lg h-9 gap-2 px-2">
-					<Package></Package>
+				<a
+					href="index"
+					class="flex items-center justify-center rounded-lg h-9 gap-2 px-2"
+				>
+					<Package class="stroke-muted-foreground"></Package>
 				</a>
-				<a class="flex items-center justify-center bg-accent rounded-lg h-9 gap-2 px-2">
+				<a
+					href="index"
+					class="flex items-center justify-center bg-accent rounded-lg h-9 gap-2 px-2"
+				>
 					<ReceiptText></ReceiptText>
 				</a>
-				<a class="flex items-center justify-center rounded-lg h-9 gap-2 px-2">
-					<Users></Users>
+				<a
+					href="index"
+					class="flex items-center justify-center rounded-lg h-9 gap-2 px-2"
+				>
+					<Users class="stroke-muted-foreground"></Users>
 				</a>
 			</nav>
 		</aside>
@@ -69,7 +81,7 @@
 										<div>Bobie Parton</div>
 									</TableCell>
 									<TableCell>
-										<div>bob@example.col</div>
+										<div>bob@example.com</div>
 									</TableCell>
 									<TableCell>
 										<div>Game</div>
@@ -78,7 +90,7 @@
 										<div>23.06.2023</div>
 									</TableCell>
 									<TableCell class="font-medium text-right">
-										<div>$250,00</div>
+										<div>$500,00</div>
 									</TableCell>
 								</TableRow>
 								<TableRow>
@@ -113,6 +125,57 @@
 									</TableCell>
 									<TableCell class="font-medium text-right">
 										<div>$250,00</div>
+									</TableCell>
+								</TableRow>
+								<TableRow>
+									<TableCell>
+										<div>Steve Adamson</div>
+									</TableCell>
+									<TableCell>
+										<div>stevie@example.com</div>
+									</TableCell>
+									<TableCell>
+										<div>Subscription</div>
+									</TableCell>
+									<TableCell>
+										<div>23.06.2023</div>
+									</TableCell>
+									<TableCell class="font-medium text-right">
+										<div>$250,00</div>
+									</TableCell>
+								</TableRow>
+								<TableRow>
+									<TableCell>
+										<div>Steve Adamson</div>
+									</TableCell>
+									<TableCell>
+										<div>stevie@example.com</div>
+									</TableCell>
+									<TableCell>
+										<div>Subscription</div>
+									</TableCell>
+									<TableCell>
+										<div>23.06.2023</div>
+									</TableCell>
+									<TableCell class="font-medium text-right">
+										<div>$250,00</div>
+									</TableCell>
+								</TableRow>
+								<TableRow>
+									<TableCell>
+										<div>John Stockston</div>
+									</TableCell>
+									<TableCell>
+										<div>johnie@example.com</div>
+									</TableCell>
+									<TableCell>
+										<div>Subscription</div>
+									</TableCell>
+									<TableCell>
+										<div>23.06.2024</div>
+									</TableCell>
+									<TableCell class="font-medium text-right">
+										<div>$120,00</div>
 									</TableCell>
 								</TableRow>
 							</TableBody>
