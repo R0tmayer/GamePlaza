@@ -6,6 +6,7 @@
 			"@custom/*": ["./src/components/custom/*"],
 			"@shadcn/*": ["./src/components/ui/*"],
 			"@lib/*": ["./src/lib/*"],
+			"@mocks/*": ["./src/mocks/*"],
 			"@/*": ["./src/*"]
 		}
 	},
