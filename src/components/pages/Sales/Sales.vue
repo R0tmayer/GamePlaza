@@ -1,33 +1,6 @@
 <template>
-  <div class="flex  w-full bg-muted/40 border rounded-lg overflow-hidden">
-    <aside class="px-2 border-r bg-background">
-      <nav class="flex flex-col max-w-fit items-start py-6 gap-3 text-lg">
-        <a
-            class="flex items-center justify-center rounded-lg h-9 gap-2 px-2"
-            href="index"
-        >
-          <House class="stroke-muted-foreground"></House>
-        </a>
-        <a
-            class="flex items-center justify-center rounded-lg h-9 gap-2 px-2"
-            href="index"
-        >
-          <Package class="stroke-muted-foreground"></Package>
-        </a>
-        <a
-            class="flex items-center justify-center bg-accent rounded-lg h-9 gap-2 px-2"
-            href="index"
-        >
-          <ReceiptText></ReceiptText>
-        </a>
-        <a
-            class="flex items-center justify-center rounded-lg h-9 gap-2 px-2"
-            href="index"
-        >
-          <Users class="stroke-muted-foreground"></Users>
-        </a>
-      </nav>
-    </aside>
+  <div class="flex w-full bg-muted/40 border rounded-lg overflow-hidden">
+    <DashboardAsideBar></DashboardAsideBar>
     <main class="grid grid-cols-10 flex-1 p-4 gap-4">
       <section class="grid auto-rows-max col-span-7 gap-4">
         <div class="grid grid-cols-3 gap-4">
@@ -137,7 +110,8 @@ import Separator from '@shadcn/separator/Separator.vue';
 
 import TableData from '@custom/DataTable.vue'
 
-import {House, MoreVertical, Package, ReceiptText, Users} from 'lucide-vue-next';
-import {saleColumns} from './SaleColumns.ts'
+import {MoreVertical} from 'lucide-vue-next';
+import {saleColumns} from '@pages/Sales/SaleColumns.ts'
 import {mockSales} from '@mocks/mockSales.ts'
+import DashboardAsideBar from "@custom/DashboardAsideBar.vue";
 </script>
