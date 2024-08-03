@@ -1,6 +1,5 @@
 <template>
-  <div class="flex w-full bg-muted/40 border rounded-lg overflow-hidden">
-    <DashboardAsideBar></DashboardAsideBar>
+  <div class="flex w-full bg-muted/40">
     <main class="p-4 flex-1">
       <Card>
         <CardHeader>
@@ -22,7 +21,6 @@
 import {mockCustomers} from "@mocks/mockCustomers.ts";
 import {customerColumns} from "@pages/Customers/CustomerColumns.ts";
 
-import DashboardAsideBar from "@custom/DashboardAsideBar.vue";
 import {Card, CardContent, CardDescription, CardHeader, CardTitle} from "@shadcn/card";
 import DataTable from "@custom/DataTable.vue";
 </script>

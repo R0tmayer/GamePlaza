@@ -4,18 +4,17 @@
       <div class="flex items-baseline space-x-6">
         <div class="text-xl">GamePlaza</div>
         <nav class="flex space-x-6">
-          <p class="">Catalog</p>
-          <p class="">Subscriptions</p>
-          <p class="font-semibold">Dashobard</p>
+          <RouterLink to="/catalog" class="font-semibold">Catalog</RouterLink>
+          <RouterLink to="/dashboard/sales">Dashboard</RouterLink>
         </nav>
         <div class="w-96">
           <Input type="text" placeholder="Search game" class="text-md"/>
         </div>
       </div>
       <nav class="flex items-center justify-between space-x-3">
-        <p>Cart</p>
-        <p>Login</p>
-        <p>Register</p>
+        <RouterLink to="/shoppingCart">Cart</RouterLink>
+        <RouterLink to="/login">Login</RouterLink>
+        <RouterLink to="/register">Register</RouterLink>
       </nav>
     </div>
   </header>

@@ -23,7 +23,8 @@
 		"tailwind-merge": "^2.4.0",
 		"tailwindcss-animate": "^1.0.7",
 		"uuid": "^10.0.0",
-		"vue": "^3.4.29"
+		"vue": "^3.4.29",
+		"vue-router": "^4.4.2"
 	},
 	"devDependencies": {
 		"@types/node": "^20.14.12",

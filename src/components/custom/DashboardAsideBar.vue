@@ -1,30 +1,26 @@
 <template>
   <aside class="px-2 border-r bg-background">
     <nav class="flex flex-col max-w-fit items-start py-6 gap-3 text-lg">
-      <a
-          class="flex items-center justify-center rounded-lg h-9 gap-2 px-2"
-          href="index"
-      >
+
+      <RouterLink to="/dashboard/home" class="flex items-center justify-center rounded-lg h-9 gap-2 px-2">
         <House class="stroke-muted-foreground"></House>
-      </a>
-      <a
-          class="flex items-center justify-center rounded-lg h-9 gap-2 px-2"
-          href="index"
+      </RouterLink>
+
+      <RouterLink to="/dashboard/products" class="flex items-center justify-center rounded-lg h-9 gap-2 px-2"
       >
         <Package class="stroke-muted-foreground"></Package>
-      </a>
-      <a
-          class="flex items-center justify-center bg-accent rounded-lg h-9 gap-2 px-2"
-          href="index"
-      >
+      </RouterLink>
+
+      <RouterLink to="/dashboard/sales"
+                  class="flex items-center justify-center bg-accent rounded-lg h-9 gap-2 px-2">
         <ReceiptText></ReceiptText>
-      </a>
-      <a
-          class="flex items-center justify-center rounded-lg h-9 gap-2 px-2"
-          href="index"
+      </RouterLink>
+
+      <RouterLink to="/dashboard/customers"
+                  class="flex items-center justify-center rounded-lg h-9 gap-2 px-2"
       >
         <Users class="stroke-muted-foreground"></Users>
-      </a>
+      </RouterLink>
     </nav>
   </aside>
 </template>

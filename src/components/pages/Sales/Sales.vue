@@ -1,6 +1,5 @@
 <template>
-  <div class="flex w-full bg-muted/40 border rounded-lg overflow-hidden">
-    <DashboardAsideBar></DashboardAsideBar>
+  <div class="flex w-full bg-muted/40 ">
     <main class="grid grid-cols-10 flex-1 p-4 gap-4">
       <section class="grid auto-rows-max col-span-7 gap-4">
         <div class="grid grid-cols-3 gap-4">
@@ -113,5 +112,4 @@ import TableData from '@custom/DataTable.vue'
 import {MoreVertical} from 'lucide-vue-next';
 import {saleColumns} from '@pages/Sales/SaleColumns.ts'
 import {mockSales} from '@mocks/mockSales.ts'
-import DashboardAsideBar from "@custom/DashboardAsideBar.vue";
 </script>
