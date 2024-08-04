@@ -1,22 +1,37 @@
 {
-	"compilerOptions": {
-		"baseUrl": ".",
-		"paths": {
-			"@pages/*": ["./src/components/pages/*"],
-			"@custom/*": ["./src/components/custom/*"],
-			"@shadcn/*": ["./src/components/ui/*"],
-			"@lib/*": ["./src/lib/*"],
-			"@mocks/*": ["./src/mocks/*"],
-			"@/*": ["./src/*"]
-		}
-	},
-	"files": [],
-	"references": [
-		{
-			"path": "./tsconfig.app.json"
-		},
-		{
-			"path": "./tsconfig.node.json"
-		}
-	]
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@pages/*": [
+        "./src/components/pages/*"
+      ],
+      "@custom/*": [
+        "./src/components/custom/*"
+      ],
+      "@shadcn/*": [
+        "./src/components/ui/*"
+      ],
+      "@lib/*": [
+        "./src/lib/*"
+      ],
+      "@mocks/*": [
+        "./src/mocks/*"
+      ],
+      "@images/*": [
+        "./src/assets/images/*"
+      ],
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
 }
