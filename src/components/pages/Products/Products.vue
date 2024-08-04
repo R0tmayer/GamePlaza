@@ -1,14 +1,17 @@
 <template>
-  <Card class="flex-1 p-4 w-full bg-muted/40">
-    <CardHeader>
-      <CardTitle>Products</CardTitle>
-      <CardDescription>Manage products</CardDescription>
-    </CardHeader>
-    <CardContent>
-      <TableData :columns="productColumns" :data="  mockProducts">
-      </TableData>
-    </CardContent>
-  </Card>
+  <main class="flex-1 p-4 w-full bg-muted/40">
+    <Card>
+      <CardHeader>
+        <CardTitle>Products</CardTitle>
+        <CardDescription>Manage products</CardDescription>
+      </CardHeader>
+      <CardContent>
+        <TableData :columns="productColumns" :data="  mockProducts">
+        </TableData>
+      </CardContent>
+    </Card>
+  </main>
+
 </template>
 
 <script setup lang="ts">

@@ -37,7 +37,7 @@
             <CardDescription>Recent sales</CardDescription>
           </CardHeader>
           <CardContent>
-            <TableData :columns="saleColumns" :data="mockSales">
+            <TableData :columns="saleColumns" :data="store.sales">
             </TableData>
           </CardContent>
         </Card>
@@ -111,5 +111,7 @@ import TableData from '@custom/DataTable.vue'
 
 import {MoreVertical} from 'lucide-vue-next';
 import {saleColumns} from '@pages/Sales/SaleColumns.ts'
-import {mockSales} from '@mocks/mockSales.ts'
+import {useSaleStore} from "@/stores/useSaleStore.ts";
+
+const store = useSaleStore();
 </script>

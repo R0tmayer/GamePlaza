@@ -1,18 +1,22 @@
 <template>
-  <Card class="flex-1 p-4 w-full bg-muted/40">
-    <CardHeader>
-      <CardTitle>Customers</CardTitle>
-      <CardDescription>Analyze customers</CardDescription>
-    </CardHeader>
-    <CardContent>
-      <DataTable :data="mockCustomers" :columns="customerColumns"></DataTable>
-    </CardContent>
-  </Card>
+  <main class="flex-1 w-full bg-muted/40 p-4">
+    <Card>
+      <CardHeader>
+        <CardTitle>Customers</CardTitle>
+        <CardDescription>Analyze customers</CardDescription>
+      </CardHeader>
+      <CardContent>
+        <DataTable :data="store.customers" :columns="customerColumns"></DataTable>
+      </CardContent>
+    </Card>
+  </main>
 </template>
 
 <script setup lang="ts">
 
-import {mockCustomers} from "@mocks/mockCustomers.ts";
+import {useCustomerStore} from "@/stores/useCustomerStore.ts";
+
+const store = useCustomerStore();
 import {customerColumns} from "@pages/Customers/CustomerColumns.ts";
 
 import {Card, CardContent, CardDescription, CardHeader, CardTitle} from "@shadcn/card";
