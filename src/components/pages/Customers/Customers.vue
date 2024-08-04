@@ -1,19 +1,13 @@
 <template>
-  <div class="flex w-full bg-muted/40">
-    <main class="p-4 flex-1">
-      <Card>
-        <CardHeader>
-          <CardTitle>Customers</CardTitle>
-          <CardDescription>Analyze customers</CardDescription>
-        </CardHeader>
-        <CardContent>
-          <DataTable :data="mockCustomers" :columns="customerColumns"></DataTable>
-        </CardContent>
-
-      </Card>
-    </main>
-  </div>
-
+  <Card class="flex-1 p-4 w-full bg-muted/40">
+    <CardHeader>
+      <CardTitle>Customers</CardTitle>
+      <CardDescription>Analyze customers</CardDescription>
+    </CardHeader>
+    <CardContent>
+      <DataTable :data="mockCustomers" :columns="customerColumns"></DataTable>
+    </CardContent>
+  </Card>
 </template>
 
 <script setup lang="ts">
