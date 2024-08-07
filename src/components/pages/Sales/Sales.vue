@@ -33,7 +33,10 @@
         </div>
         <Card>
           <CardHeader>
-            <CardTitle>Sales</CardTitle>
+            <CardTitle class="flex justify-between">
+              <p>Sales</p>
+              <Input type="text" placeholder="Search sale" class="max-w-xs"/>
+            </CardTitle>
             <CardDescription>Recent sales</CardDescription>
           </CardHeader>
           <CardContent>
@@ -112,6 +115,7 @@ import TableData from '@custom/DataTable.vue'
 import {MoreVertical} from 'lucide-vue-next';
 import {saleColumns} from '@pages/Sales/SaleColumns.ts'
 import {useSaleStore} from "@/stores/useSaleStore.ts";
+import {Input} from "@shadcn/input";
 
 const store = useSaleStore();
 </script>

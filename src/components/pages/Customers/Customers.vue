@@ -2,7 +2,10 @@
   <main class="flex-1 w-full bg-muted/40 p-4">
     <Card>
       <CardHeader>
-        <CardTitle>Customers</CardTitle>
+        <CardTitle class="flex justify-between">
+          <p>Customers</p>
+          <Input type="text" placeholder="Search customer" class="max-w-xs"/>
+        </CardTitle>
         <CardDescription>Analyze customers</CardDescription>
       </CardHeader>
       <CardContent>
@@ -20,4 +23,5 @@ import {customerColumns} from "@pages/Customers/CustomerColumns.ts";
 const store = useCustomerStore();
 import {Card, CardContent, CardDescription, CardHeader, CardTitle} from "@shadcn/card";
 import DataTable from "@custom/DataTable.vue";
+import Input from "../../ui/input/Input.vue";
 </script>

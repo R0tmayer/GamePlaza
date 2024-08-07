@@ -2,7 +2,10 @@
   <main class="flex-1 p-4 w-full bg-muted/40">
     <Card>
       <CardHeader>
-        <CardTitle>Products</CardTitle>
+        <CardTitle class="flex justify-between">
+          <p>Products</p>
+          <Input type="text" placeholder="Search product" class="max-w-xs"/>
+        </CardTitle>
         <CardDescription>Manage products</CardDescription>
       </CardHeader>
       <CardContent>
@@ -22,6 +25,7 @@ import TableData from '@custom/DataTable.vue'
 
 import {productColumns} from '@pages/Products/ProductColumns.ts'
 import {useProductStore} from "@/stores/useProductStore.ts";
+import Input from "../../ui/input/Input.vue";
 
 const store = useProductStore();
 </script>
