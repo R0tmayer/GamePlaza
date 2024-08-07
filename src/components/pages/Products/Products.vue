@@ -6,7 +6,7 @@
         <CardDescription>Manage products</CardDescription>
       </CardHeader>
       <CardContent>
-        <TableData :columns="productColumns" :data="  mockProducts">
+        <TableData :columns="productColumns" :data="store.products">
         </TableData>
       </CardContent>
     </Card>
@@ -20,6 +20,8 @@ import {Card, CardContent, CardDescription, CardHeader, CardTitle} from '@shadcn
 import TableData from '@custom/DataTable.vue'
 
 import {productColumns} from '@pages/Products/ProductColumns.ts'
-import {mockProducts} from '@mocks/mockProducts.ts'
+import {useProductStore} from "@/stores/useProductStore.ts";
+
+const store = useProductStore();
 </script>
 

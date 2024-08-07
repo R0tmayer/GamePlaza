@@ -1,5 +1,5 @@
 import {v4 as uuidv4} from 'uuid';
-import {Product} from "@pages/Products/Product.ts";
+import {Product} from "@/interfaces/Product.ts";
 
 export const mockProducts: Product[] = [
     {

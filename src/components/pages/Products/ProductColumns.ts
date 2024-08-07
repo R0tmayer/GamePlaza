@@ -1,6 +1,6 @@
 import {h} from 'vue';
 import {ColumnDef} from "@tanstack/vue-table";
-import {Product} from "@pages/Products/Product.ts";
+import {Product} from "@/interfaces/Product.ts";
 import DropdownAction from "@pages/Products/ProductDataTableRowDropdown.vue";
 
 export const productColumns: ColumnDef<Product>[] = [

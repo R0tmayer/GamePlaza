@@ -1,6 +1,6 @@
 import {h} from 'vue';
 import {ColumnDef} from "@tanstack/vue-table";
-import {Sale} from "@pages/Sales/Sale.ts";
+import {Sale} from "@/interfaces/Sale.ts";
 
 export const saleColumns: ColumnDef<Sale>[] = [
     {

@@ -6,7 +6,7 @@
         <CardDescription>Analyze customers</CardDescription>
       </CardHeader>
       <CardContent>
-        <DataTable :data="store.customers" :columns="customerColumns"></DataTable>
+        <DataTable :columns="customerColumns" :data="store.customers"></DataTable>
       </CardContent>
     </Card>
   </main>
@@ -15,10 +15,9 @@
 <script setup lang="ts">
 
 import {useCustomerStore} from "@/stores/useCustomerStore.ts";
-
-const store = useCustomerStore();
 import {customerColumns} from "@pages/Customers/CustomerColumns.ts";
 
+const store = useCustomerStore();
 import {Card, CardContent, CardDescription, CardHeader, CardTitle} from "@shadcn/card";
 import DataTable from "@custom/DataTable.vue";
 </script>

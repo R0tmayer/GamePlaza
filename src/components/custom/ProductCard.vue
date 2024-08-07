@@ -16,7 +16,6 @@
 </template>
 
 <script setup lang="ts">
-
 const props = defineProps({
   id: String,
   image: String,
@@ -25,5 +24,6 @@ const props = defineProps({
 })
 
 const image = new URL(`/src/assets/images/${props.image}`, import.meta.url).href;
+
 import Button from '../ui/button/Button.vue';
 </script>

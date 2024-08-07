@@ -11,10 +11,13 @@
           <Input type="text" placeholder="Search game" class="text-md"/>
         </div>
       </div>
-      <nav class="flex items-center justify-between space-x-3">
-        <RouterLink to="/shoppingCart">Cart</RouterLink>
-        <RouterLink to="/login">Login</RouterLink>
-        <RouterLink to="/register">Register</RouterLink>
+      <nav class="flex items-center justify-between space-x-5">
+        <RouterLink to="/login">
+          <User></User>
+        </RouterLink>
+        <RouterLink to="/shoppingCart">
+          <ShoppingCart></ShoppingCart>
+        </RouterLink>
       </nav>
     </div>
   </header>
@@ -22,4 +25,5 @@
 
 <script setup lang="ts">
 import Input from '../ui/input/Input.vue';
+import {ShoppingCart, User} from "lucide-vue-next";
 </script>

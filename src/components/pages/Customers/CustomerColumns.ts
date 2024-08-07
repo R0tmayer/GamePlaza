@@ -1,6 +1,6 @@
 import {h} from 'vue';
 import {ColumnDef} from "@tanstack/vue-table";
-import {Customer} from './Customer';
+import {Customer} from '../../../interfaces/Customer.ts';
 
 export const customerColumns: ColumnDef<Customer>[] = [
     {

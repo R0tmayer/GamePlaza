@@ -18,7 +18,10 @@
         "./src/mocks/*"
       ],
       "@images/*": [
-        "./src/assets/images/*"
+        "./src/images/*"
+      ],
+      "@interfaces/*": [
+        "./src/interfaces/*"
       ],
       "@/*": [
         "./src/*"

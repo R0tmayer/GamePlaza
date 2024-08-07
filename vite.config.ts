@@ -20,6 +20,7 @@ export default defineConfig({
             '@shadcn': path.resolve(__dirname, './src/components/ui'),
             '@mocks': path.resolve(__dirname, './src/mocks'),
             '@images': path.resolve(__dirname, './src/assets/images'),
+            '@interfaces': path.resolve(__dirname, './src/interfaces'),
             '@': path.resolve(__dirname, './src'),
         },
     },

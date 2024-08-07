@@ -1,5 +1,5 @@
 import {v4 as uuidv4} from 'uuid';
-import {Customer} from "@pages/Customers/Customer.ts";
+import {Customer} from "@/interfaces/Customer.ts";
 
 export const mockCustomers: Customer[] = [
     {

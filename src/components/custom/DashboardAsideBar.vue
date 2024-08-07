@@ -2,7 +2,7 @@
   <aside class="px-2 border-r bg-background">
     <nav class="flex flex-col max-w-fit items-start py-6 gap-3 text-lg">
 
-      <RouterLink to="/dashboard/home" class="flex items-center justify-center rounded-lg h-9 gap-2 px-2">
+      <RouterLink to="/dashboard/sales" class="flex items-center justify-center rounded-lg h-9 gap-2 px-2">
         <House class="stroke-muted-foreground"></House>
       </RouterLink>
 
