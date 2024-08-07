@@ -1,21 +1,41 @@
 <template>
-  <div class="border rounded-xl w-52 h-96 overflow-hidden">
-    <header>
-      <img :src="image" alt=""/>
-    </header>
-    <main class="p-2 h-20">
-      <div>
-        <p>{{ name }}</p>
-      </div>
-    </main>
-    <footer class="flex justify-between px-2.5">
+  <Card class="overflow-hidden">
+    <CardContent class="w-52 h-80 p-0">
+      <header>
+        <img :src="image" alt=""/>
+      </header>
+      <main class="p-2">
+        <div>
+          <p>{{ name }}</p>
+        </div>
+      </main>
+    </CardContent>
+    <CardFooter class="flex justify-between px-2.5">
       <p class="text-xl">${{ price }}</p>
       <Button size="sm">Add to cart</Button>
-    </footer>
-  </div>
+    </CardFooter>
+  </Card>
+
+
+  <!--  <div class="border rounded-xl w-52 h-96 overflow-hidden">-->
+  <!--    <header>-->
+  <!--      <img :src="image" alt=""/>-->
+  <!--    </header>-->
+  <!--    <main class="p-2 h-20">-->
+  <!--      <div>-->
+  <!--        <p>{{ name }}</p>-->
+  <!--      </div>-->
+  <!--    </main>-->
+  <!--    <footer class="flex justify-between px-2.5">-->
+  <!--      <p class="text-xl">${{ price }}</p>-->
+  <!--      <Button size="sm">Add to cart</Button>-->
+  <!--    </footer>-->
+  <!--  </div>-->
 </template>
 
 <script setup lang="ts">
+import {Card, CardContent, CardFooter} from "@shadcn/card";
+
 const props = defineProps({
   id: String,
   image: String,

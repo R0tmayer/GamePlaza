@@ -8,8 +8,11 @@ import Dashboard from "@pages/Dashboard.vue";
 import Customers from "@pages/Customers/Customers.vue";
 import Products from "@pages/Products/Products.vue";
 import Sales from "@pages/Sales/Sales.vue";
+import {Home} from "lucide-vue-next";
 
-const routes = [{path: "/catalog", component: Catalog},
+const routes = [
+    {path: "/", component: Catalog},
+    {path: "/catalog", component: Catalog},
     {path: "/login", component: Login},
     {path: "/register", component: Register},
     {path: "/shoppingCart", component: ShoppingCart},
