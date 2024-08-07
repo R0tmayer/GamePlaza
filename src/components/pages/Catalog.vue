@@ -1,9 +1,7 @@
 <template>
   <Card class="border-none shadow-none">
     <CardHeader class="px-2.5 pb-1">
-      <CardDescription class="flex w-1/2 gap-5">
-        <VSelector :values="testArray" :placeholder="placeholder"></VSelector>
-        <VSelector :values="testArray" :placeholder="placeholder"></VSelector>
+      <CardDescription class="flex w-1/5 gap-5">
         <VSelector :values="testArray" :placeholder="placeholder"></VSelector>
       </CardDescription>
     </CardHeader>
