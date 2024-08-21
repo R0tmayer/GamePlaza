@@ -5,8 +5,7 @@
         <VSelector :values="testArray" :placeholder="placeholder"></VSelector>
       </CardDescription>
     </CardHeader>
-    <Separator class="my-5"></Separator>
-    <CardContent class="grid grid-cols-6 justify-items-center gap-x-12 gap-y-3">
+    <CardContent class="grid grid-cols-6 justify-items-center gap-x-12 gap-y-3 mt-5">
       <ProductCard v-for="product in store.products" :key="product.id" :name="product.name"
                    :price="product.price"
                    :image="product.image">
@@ -22,7 +21,7 @@ import {ref} from "vue";
 const store = useProductStore();
 
 import ProductCard from '../custom/ProductCard.vue';
-import {Card, CardContent, CardDescription, CardHeader, CardTitle} from "@shadcn/card";
+import {Card, CardContent, CardDescription, CardHeader} from "@shadcn/card";
 
 import VSelector from "@custom/VSelector.vue";
 import {Separator} from "@shadcn/separator";
