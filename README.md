@@ -1,6 +1,6 @@
 # GamePlaza
 ## Simple e-shop with ASP.NET Core and Vue.js
-Project in progress...(more in telegram @way_of_backender)
+Project in progress...(more in telegram **@way_of_backender**)
 ### Backend:
 - ASP.NET Core (net8.0, C# 12.0)
 - EF Core (8.0.8)
