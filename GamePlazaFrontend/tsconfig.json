@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@pages/*": [
+        "./src/components/pages/*"
+      ],
+      "@custom/*": [
+        "./src/components/custom/*"
+      ],
+      "@shadcn/*": [
+        "./src/components/ui/*"
+      ],
+      "@lib/*": [
+        "./src/lib/*"
+      ],
+      "@fakes/*": [
+        "./src/fakes/*"
+      ],
+      "@images/*": [
+        "./src/images/*"
+      ],
+      "@interfaces/*": [
+        "./src/interfaces/*"
+      ],
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}
